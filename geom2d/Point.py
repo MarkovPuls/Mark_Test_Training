@@ -13,3 +13,7 @@ class Point:
         dx = p2.x - self.x
         dy = p2.y - self.y
         return sqrt(dx * dx + dy * dy)
+
+    def __repr__(self):
+        return "Point(%s, %s)" % (self.x, self.y)
+
